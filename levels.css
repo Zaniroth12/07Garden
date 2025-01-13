@@ -1,0 +1,12 @@
+#level-1.garden {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#level-2.garden {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    }
+}
+

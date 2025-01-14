@@ -5,8 +5,20 @@
 
 #level-2.garden {
     display: grid;
+    grid-template-areas: 
+        "peas peas"
+        "onions tomatoes"
+        "lettuce carrots";
+    header {grid-area: peas; }
+    aside {grid-area: onions; }
+    article {grid-area: tomatoes; }
+    nav {grid-area: lettuce; }
+    footer {grid-area: carrots; }
     grid-template-columns: 1fr 1fr;
-    
+    grid-template-rows: auto;
     }
-}
 
+#level-2.peas {
+    grid-column: 1 / 3;
+    grid-area: ;
+}
